@@ -1,0 +1,82 @@
+"Phrases"
+{
+    "Chat Prefix"
+    {
+        "en"        "{orange}[BW]"
+    }
+    
+    "Button Press"
+    {
+        "#format"   "{1:N},{2:i},{3:i},{4:s}"
+        "en"        "{lightblue}{1} [#{2}] {lightgreen}pressed button: {blue}{3} {default}- {blue}{4}"
+    }
+    
+    "Button Press Console 1"
+    {
+        "#format"   "{1:N},{2:s},{3:i},{4:i},{5:s}"
+        "en"        ">> {1} [{2}] [#{3}] pressed button: {4} - {5}"
+    }
+    
+    "Button Press Console 2"
+    {
+        "#format"   "{1:.1f},{2:.1f},{3:.1f}"
+        "en"        ">> Button location: x = {1}, y = {2}, z = {3}"
+    }
+    
+    "BBan Temp"
+    {
+        "#format"   "{1:N},{2:N}"
+        "en"        "{default}Admin {green}{1} {default}banned {green}{2} {default}from pressing buttons temporarily."
+    }
+    
+    "BBan Perm"
+    {
+        "#format"   "{1:N},{2:N}"
+        "en"        "{default}Admin {green}{1} {default}banned {green}{2} {default}from pressing buttons permanently."
+    }
+    
+    "BBan Time"
+    {
+        "#format"   "{1:N},{2:N},{3:d},{4:s}"
+        "en"        "{default}Admin {green}{1} {default}banned {green}{2} {default}from pressing buttons for {green}{3} minute{4}{default}."
+    }
+    
+    "BBan Unban"
+    {
+        "#format"   "{1:N},{2:N}"
+        "en"        "{default}Admin {green}{1} {default}unbanned {green}{2} {default}from pressing buttons."
+    }
+    
+    "BBan Unban TimeLeft"
+    {
+        "en"        "{default}Your button ban has expired. You can now press buttons again."
+    }
+    
+    "BBan You Unbanned"
+    {
+        "en"        "{default}You are not banned from pressing buttons."
+    }
+    
+    "BBan Status Temp"
+    {
+        "#format"   "{1:s}"
+        "en"        "{default}You are currently {red}button banned {default}temporarily by admin {1}."
+    }
+    
+    "BBan Status Perm"
+    {
+        "#format"   "{1:s}"
+        "en"        "{default}You are currently {red}button banned {default}permanently by admin {1}."
+    }
+    
+    "BBan Status"
+    {
+        "#format"   "{1:d},{2:s},{3:s}"
+        "en"        "{default}You are currently {red}button banned {default}for {green}{1} minute{2} {default}by admin {3}."
+    }
+    
+    "BBan No Available"
+    {
+        "en"        "{default}Player is no longer available"
+    }
+}
